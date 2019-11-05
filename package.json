@@ -1,0 +1,25 @@
+{
+  "name": "hao-w.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/hao-w/hao-w.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "collapse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hao-w/hao-w.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hao-w/hao-w.github.io/issues"
+  },
+  "homepage": "https://github.com/hao-w/hao-w.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  }
+}
