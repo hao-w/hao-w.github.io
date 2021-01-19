@@ -8,49 +8,24 @@
 // @import "bootswatch";
 .navbar{
   font-size: $font-size-lg;
-  // position: fixed;
-  // top: 0; /* Position the navbar at the top of the page */
-  // width: 100%; /* Full width */
-  &-nav  {
-    padding-left: 0rem;
-    padding-right: 10rem;
-    .current {
-      // background-color: $gray-700;
-      color: $gray-100;
-      //
-      // border-radius: 25px;
-      // border: 2px solid #73AD21;
-      // // padding: 20px;
-      // width: 200px;
-      // height: 150px
-      // padding-left: 1rem;
-    }
-  }
-}
-.nav-link {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  a {
+  a{
     color: $gray-400;
+  }
+  a.active{
+    color: $white;
   }
   a:hover{
     text-decoration: none;
-    color: $gray-100;
+    color: $white;
+  }
+  li{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-left: 0rem;
+    margin-right: 4rem;
+  }
 }
-  // &:active{
-  //   background-color: darkred;
-  // }
-}
-.nav-item {
-  // &:focus{
-  //   background-color: green;
-  // }
-  // &:active{
-  //   background-color: darkred;
-  // }
-  margin-left: 0rem;
-  margin-right: 4rem;
-}
+
 
 
 .publications{
