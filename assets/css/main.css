@@ -2402,17 +2402,13 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .navbar { font-size: 1.25rem; }
 
-.navbar-nav { padding-left: 0rem; padding-right: 10rem; }
+.navbar a { color: #ced4da; }
 
-.navbar-nav .current { color: #f8f9fa; }
+.navbar a.active { color: #fff; }
 
-.nav-link { padding-top: .5rem; padding-bottom: .5rem; }
+.navbar a:hover { text-decoration: none; color: #fff; }
 
-.nav-link a { color: #ced4da; }
-
-.nav-link a:hover { text-decoration: none; color: #f8f9fa; }
-
-.nav-item { margin-left: 0rem; margin-right: 4rem; }
+.navbar li { padding-top: .5rem; padding-bottom: .5rem; margin-left: 0rem; margin-right: 4rem; }
 
 .publications { padding-top: 9rem; }
 
