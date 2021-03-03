@@ -1,5 +1,12 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hao-w.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+permalink: /:year/:month/:day/:title
+timezone: America/New_York
 title: "Hao Wu's Personal Webite" # the name of your site, e.g. ACME Corp.
-# sass:
-#   sass_dir: assets/css
+
+
+navigation:
+- text: Home
+  url: /
+- text: Publications
+  url: /publications/
