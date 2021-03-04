@@ -3,6 +3,9 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
+*, html {
+    font-family: HelveticaNeueW01-45Ligh,"Helvetica Neue",HelveticaNeue,Helvetica,sans-serif;
+}
 .research {
   padding-top: 5rem;
   padding-left: 1rem;
@@ -42,6 +45,8 @@
   h2 {
     color: $white;
     font-weight: bold;
+    padding-left: 4rem;
+    // padding-top: 1rem;
   }
   padding-bottom: 3rem;
 }
