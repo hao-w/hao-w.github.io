@@ -2442,15 +2442,17 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .face_img img { box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.75); width: 86%; height: auto; }
 
-.contact-info { padding-top: 2.5rem; }
+.hao-card { padding-top: 2.5rem; }
 
-.contact-info h1 { font-weight: bold; padding-bottom: 1rem; }
+.status-info { padding-top: 1rem; }
 
-.contact-info p { font-size: 1.2rem; line-height: 2.1rem; }
+.status-info p { font-size: 1.2rem; line-height: 1.7rem; }
+
+.contact-info p { font-size: 1.2rem; line-height: 2.2rem; }
 
 .contact-info a:hover { text-decoration: none; }
 
-.contact-info img { width: 22px; height: auto; }
+.contact-info img { width: 20px; height: auto; }
 
 .biography h1 { font-weight: bold; }
 
