@@ -81,9 +81,10 @@
 
 
 .publications{
-  h2{
+  .title{
     font-weight: bold;
-    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    padding-bottom: 0.2rem;
   }
   // padding-left: 12rem;
   padding-top: 7rem;
@@ -92,9 +93,13 @@
     margin-bottom: -1rem;
     // font-size: $font-size-lg;
   }
-  p {
-    font-size: 1.2rem;
+  .paper-info {
+    font-size: 1.1rem;
   }
+  p {
+    font-size: 1.1rem;
+  }
+
   a{
     margin-right: 1rem;
   }
