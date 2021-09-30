@@ -2430,11 +2430,13 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .publications { padding-top: 7rem; }
 
-.publications h2 { font-weight: bold; padding-left: 1.5rem; }
+.publications .title { font-weight: bold; font-size: 1.2rem; padding-bottom: 0.2rem; }
 
 .publications .paper { margin-top: 2rem; margin-bottom: -1rem; }
 
-.publications p { font-size: 1.2rem; }
+.publications .paper-info { font-size: 1.1rem; }
+
+.publications p { font-size: 1.1rem; }
 
 .publications a { margin-right: 1rem; }
 
