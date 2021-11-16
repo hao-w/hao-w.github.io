@@ -2404,11 +2404,13 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .research .paper { padding-bottom: 4rem; }
 
-.research .abstract { font-size: 1.2rem; }
+.research .abstract { font-size: 1.15rem; padding-top: 0.7rem; }
+
+.research .paper-authorlist { font-size: 1.15rem; }
 
 .research h2 { font-weight: bold; padding-bottom: 2rem; }
 
-.research .paper-title { font-size: 1.4rem; font-weight: bold; }
+.research .paper-title { font-size: 1.3rem; font-weight: bold; }
 
 .research .paper-image { padding-top: 1rem; }
 
@@ -2450,7 +2452,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .status-info p { font-size: 1.2rem; line-height: 1.7rem; }
 
-.contact-info p { font-size: 1.2rem; line-height: 2.2rem; }
+.contact-info p { font-size: 1.15rem; line-height: 2.2rem; }
 
 .contact-info a:hover { text-decoration: none; }
 
@@ -2458,7 +2460,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .biography h1 { font-weight: bold; }
 
-.biography p { font-size: 1.2rem; }
+.biography p { font-size: 1.15rem; }
 
 .biography a:hover { text-decoration: none; }
 
@@ -2468,6 +2470,6 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 .news a:hover { text-decoration: none; }
 
-.news p { font-size: 1.2rem; }
+.news p { font-size: 1.15rem; }
 
 /*# sourceMappingURL=main.css.map */
