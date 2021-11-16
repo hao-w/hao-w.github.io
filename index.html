@@ -136,7 +136,55 @@ Check out my <a href="/assets/hao_research_statement.pdf">Research Statement</a>
 
   <div class="row">
     <div class="research">
-<h2>Research</h2>
+<h2>Selected Publications</h2>
+
+<div class='paper row'>
+  <div class="paper-image col-lg-3">
+    <img alt="zimmermann_nvi_2021" src="/assets/thumbnails/zimmermann_nvi_2021.svg">
+  </div>
+  <div class="paper-info col-lg-9">
+    <div class="paper-title">
+    Nested Variational Inference
+    </div>
+    <div class="paper-authorlist">
+      <em>Conference on Neural Information Processing Systems (NeurIPS), 2021</em>
+      <br>
+      Heiko Zimmermann, <strong>Hao Wu</strong>, Babak Esmaeili, Sam Stites, Jan-Willem van de Meent
+      <br>
+    </div>
+    <div class='abstract'>
+      We develop nested variational inference (NVI), a family of methods that learn proposals for nested importance samplers by minimizing an forward or reverse KL divergence at each level of nesting. NVI is applicable to many commonly-used importance sampling strategies and provides a mechanism for learning intermediate densities, which can serve as heuristics to guide the sampler.In our experiments we observe that optimizing nested objectives leads to improved
+sample quality in terms of log average weight and effective sample size.
+    <!-- <br> -->
+    <a href="https://arxiv.org/pdf/2106.11302.pdf">[Paper]</a>
+  </div>
+
+  </div>
+</div>
+
+<div class='paper row'>
+  <div class="paper-image col-lg-3">
+    <img alt="stites_combinators_2021" src="/assets/thumbnails/stites_combinators_2021.jpeg">
+  </div>
+  <div class="paper-info col-lg-9">
+    <div class="paper-title">
+    Learning Proposals for Probabilistic Programs with Inference Combinators
+    </div>
+    <div class="paper-authorlist">
+      <em>Uncertainty in Artificial Intelligence (UAI), 2021</em>
+      <br>
+      Sam Stites*, Heiko Zimmermann*, <strong>Hao Wu</strong>, Eli Sennesh, Jan-Willem van de Meent
+      <br>
+    </div>
+    <div class='abstract'>
+      We develop operators for construction of proposals in probabilistic programs, which we refer to as inference combinators. Inference combinators define a grammar over importance samplers that compose primitive operations such as application of a transition kernel and importance resampling. Proposals in these samplers can be parameterized using neural networks, which in turn can be trained by optimizing variational objectives. The result is a framework for user-programmable variational methods that are correct by construction and can be tailored to specific models.
+      <!-- <br> -->
+      <a href="https://arxiv.org/abs/2103.00668">[Paper]</a>
+  </div>
+
+  </div>
+</div>
+
 
 <div class='paper row'>
   <div class="paper-image col-lg-3">
@@ -146,9 +194,16 @@ Check out my <a href="/assets/hao_research_statement.pdf">Research Statement</a>
     <div class="paper-title">
     Conjugate Energy-Based Models
     </div>
+    <div class="paper-authorlist">
+      <em>International Conference on Machine Learning (ICML), 2021</em>
+      <br>
+      <strong>Hao Wu</strong>*, Babak Esmaeili*, Michael Wick, Jean-Baptiste Tristan, Jan-Willem van de Meent
+      <br>
+    </div>
     <div class='abstract'>
       We propose conjugate energy-based models (CEBMs), a class of deep latent-variable models with a tractable posterior. CEBMs have similar use cases as variational autoencoders, in the sense that they learn an unsupervised mapping between data and latent variables. However these models omit a generator, which allows them to learn more flexible notions of similarity between data points. Our experiments demonstrate that CEBMs achieve competitive results in terms of image modelling, predictive power of latent space, and out-of-distribution detection on a variety of datasets.
-    <a href="https://arxiv.org/abs/2106.13798">[Read More]</a>
+      <!-- <br> -->
+    <a href="https://arxiv.org/abs/2106.13798">[Paper]</a>
   </div>
 
   </div>
@@ -163,10 +218,44 @@ Check out my <a href="/assets/hao_research_statement.pdf">Research Statement</a>
     <div class="paper-title">
     Amortized Population Gibbs Samplers with Neural Sufficient Statistics
     </div>
+    <div class="paper-authorlist">
+    <em>International Conference on Machine Learning (ICML), 2020</em>
+    <br>
+    <strong>Hao Wu</strong>, Heiko Zimmermann, Eli Sennesh, Tuan Anh Le, Jan-Willem van de Meent
+    <br>
+    </div>
     <div class='abstract'>
-      We develop amortized population Gibbs (APG) samplers, a class of scalable methods that frame structured variational inference as adaptive importance sampling. APG samplers construct high-dimensional proposals by iterating over updates to lower-dimensional blocks of variables. We train each conditional proposal by minimizing the inclusive KL divergence with respect to the conditional posterior. To appropriately account for the size of the input data, we develop a new parameterization in terms of neural sufficient statistics. Experiments show that APG samplers can be used to train highly-structured deep generative models in an unsupervised manner, and achieve substantial improvements in inference accuracy relative to standard autoencoding variational methods.
+      We develop amortized population Gibbs (APG) samplers, a class of scalable methods that frame structured variational inference as adaptive importance sampling. APG samplers construct high-dimensional proposals by iterating over updates to lower-dimensional blocks of variables. We train each conditional proposal by minimizing the inclusive KL divergence with respect to the conditional posterior. To appropriately account for the size of the input data, we develop a new parameterization in terms of neural sufficient statistics. Experiments show that APG samplers can be used to train highly-structured deep generative models in an unsupervised manner.
+      <!-- <br> -->
+    <a href="http://proceedings.mlr.press/v119/wu20h.html">[Paper]</a>
+    </div>
+  </div>
 
-    <a href="http://proceedings.mlr.press/v119/wu20h.html">[Read More]</a>
+</div>
+
+
+<div class='paper row'>
+  <div class="paper-image col-lg-3">
+    <img alt="esmaeili_hfvae_2019" src="/assets/thumbnails/esmaeili_hfvae_2019.jpeg">
+  </div>
+  <div class="paper-info col-lg-9">
+    <div class="paper-title">
+    Structured Disentangled Representations
+    </div>
+    <div class="paper-authorlist">
+    <em>Artificial Intelligence and Statistics (AISTATS), 2019</em>
+    <br>
+    Babak Esmaeili, <strong>Hao Wu</strong>, Sarthak Jain, Alican Bozkurt, N. Siddharth, Brooks Paige, Dana H. Brooks, Jennifer Dy, Jan-Willem van de Meent
+    <br>
+    </div>
+    <div class='abstract'>
+      Deep latent-variable models learn representations of high-dimensional data in an unsupervised manner. A number of recent efforts have focused on
+      learning representations that disentangle statistically independent axes of variation by introducing
+      modifications to the standard objective function. These approaches generally assume a simple diagonal Gaussian prior and as a result are not able to
+      reliably disentangle factors of variation. We propose a two-level hierarchical objective to control relative degree of statistical independence
+      between blocks of variables and individual variables within blocks.
+      <!-- <br> -->
+    <a href="http://proceedings.mlr.press/v89/esmaeili19a">[Paper]</a>
     </div>
   </div>
 
